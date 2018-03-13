@@ -1,0 +1,11 @@
+addpath('./behavior/');
+addpath('./clouds/');
+addpath('./cvx/');
+addpath('./clouds/');
+addpath('./general/');
+addpath('./math/');
+addpath('./plotting/');
+addpath('./populationLevelSignatures/');
+addpath('./simulate/');
+addpath('./simulate/helper/');
+addpath('./statistics/');
