@@ -3,6 +3,8 @@ reassociation," by Matthew D. Golub, Patrick T. Sadtler , Emily R. Oby,
 Kristin M. Quick, Stephen I. Ryu, Elizabeth C. Tyler-Kabara, Aaron P. 
 Batista, Steven M. Chase, and Byron M. Yu. Nature Neuroscience, 2018.
 
+Thanks to Jay Hennig and Emily Oby for helpful feedback on the codepack.
+
 Codepack version: 1.0
 
 Please check for updates, as frequent improvements are being made through
