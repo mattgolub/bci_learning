@@ -15,7 +15,7 @@
 % SETUP: 
 %
 % To run the codepack, you must download CVX for Matlab from
-% www.cvxr.com/cvx/. Place the uncompressed "CVX" folder inside the
+% www.cvxr.com/cvx/. Place the uncompressed "cvx" folder inside the
 % top-level folder of this codepack.
 %
 % MATLAB VERSIONS:
