@@ -1,4 +1,4 @@
-The run.m script runs the codepack that accompanies "Learning by neural  
+This script runs the codepack that accompanies "Learning by neural  
 reassociation," by Matthew D. Golub, Patrick T. Sadtler , Emily R. Oby, 
 Kristin M. Quick, Stephen I. Ryu, Elizabeth C. Tyler-Kabara, Aaron P. 
 Batista, Steven M. Chase, and Byron M. Yu. Nature Neuroscience, 2018.
@@ -18,11 +18,12 @@ To run the codepack, you must download CVX for Matlab from
 www.cvxr.com/cvx/. Place the uncompressed "CVX" folder inside the
 top-level folder of this codepack.
 
-KNOWN ISSUES:
+MATLAB VERSIONS:
 
-This codepack may not function properly with Matlab versions beyond
-R2015a. This is due to compatibility issues with CVX (see above). We are
-actively working to resolve these issues.
+This codepack was developed and tested using Matlab R2015a. We have also 
+had success with Matlab R2013a, R2016a, and R2017b. This codepack may not 
+be compatible with earlier Matlab versions (e.g., not compatible with 
+R2011b).
 
 DESCRIPTION:
 
