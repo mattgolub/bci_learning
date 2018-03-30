@@ -3,6 +3,8 @@ function [Zp,stats] = simulate_findMatchedProgressFactors(Zmax, LI_clouds,LP_clo
 %
 % Interpolate between LI and max-progress movement-specific means to match
 % observed progress. Essentially a line search.
+%
+% @ Matt Golub, 2018.
 
 fprintf('\tInterpolating up to max-progress solution to match progress...');
 

@@ -1,4 +1,5 @@
 function Zp_maxProgress = simulateRealignment_findMaxProgressFactors(LI_clouds,LP_clouds,cursorParams)
+% @ Matt Golub, 2018.
 
 fprintf('\tFinding max-progress realignment solution...');
 

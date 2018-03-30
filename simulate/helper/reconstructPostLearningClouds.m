@@ -4,6 +4,8 @@ function clouds = reconstructPostLearningClouds(LP_clouds,simL,expParams)
 % condition-averaged) with timestep-by-timestep values from LP_clouds.
 % Cursor progress is recomputed based on these timestep-by-timestep
 % directions.
+%
+% @ Matt Golub, 2018.
 
 intuitiveCursorParams = expParams.intuitiveMapping;
 perturbedCursorParams = expParams.perturbedMapping;

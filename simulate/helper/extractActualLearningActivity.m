@@ -1,4 +1,5 @@
 function actualL = extractActualLearningActivity(LP_clouds)
+% @ Matt Golub, 2018.
 
 numConditions = numel(LP_clouds.cursorToTargetDirection);
 nPerCloud = cellfun(@(cTTD)(size(cTTD,2)),LP_clouds.cursorToTargetDirection);

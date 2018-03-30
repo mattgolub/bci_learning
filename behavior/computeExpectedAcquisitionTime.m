@@ -1,5 +1,7 @@
 function acqTime = computeExpectedAcquisitionTime(clouds,mappingStr,expParams)
 % progressStr is either 'intuitive' or 'perturbed'
+%
+% @ Matt Golub, 2018.
 
 progressStr = [mappingStr 'Progress'];
 mappingStr = [mappingStr 'Mapping'];

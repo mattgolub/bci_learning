@@ -7,6 +7,8 @@ function [hull,X_enclosed,X_outliers] = plotConvexHull(X,varargin)
 % define the convex hull are dropped (in an ad-hoc method) until the convex
 % hull encloses the desired fraction of the data. Using values less than 1
 % reduces the hull's sensitivity to extremal values.
+%
+% @ Matt Golub, 2018.
 
 FRACTION_ENCLOSED = 1;
 plotArgs = assignopts(who,varargin);

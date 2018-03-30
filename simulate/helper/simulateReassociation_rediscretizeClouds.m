@@ -1,6 +1,8 @@
-function rediscretize = simulateReassociate8_rediscretizeClouds(LI_clouds,nRediscretize,factorScales)
+function rediscretize = simulateReassociation_rediscretizeClouds(LI_clouds,nRediscretize,factorScales)
 % factorScales is numFactors x 1, allows for rescaling of factors (useful
 % for stretching and shrinking activity a-la-restore.
+%
+% @ Matt Golub, 2018.
 
 nConditions = numel(LI_clouds.factorActivity);
 

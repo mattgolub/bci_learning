@@ -1,4 +1,6 @@
 function stats = computeCloudStats(clouds)
+%
+% @ Matt Golub, 2018.
 
 X = [clouds.spikes{:}]; % spikes
 Z = [clouds.factorActivity{:}]; % factor activity

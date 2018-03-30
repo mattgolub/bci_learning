@@ -6,6 +6,8 @@ function [B,mu] = extractSpikesToFactorsMapping(cursorParams)
 %
 % See also computeFactorsFromSpikes, computeSpikesFromFactors,
 % simulateSpikesFromFactors.
+%
+% @ Matt Golub, 2018.
 
 mu_u = cursorParams.mu_u;
 Sigma_u = cursorParams.Sigma_u;

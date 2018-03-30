@@ -1,6 +1,8 @@
 function [spikes, isfeasible] = computeFeasibleSpikesFromFactors(candidateFactorActivity,observedStats,cursorParams,varargin)
 % Determine whether a valid point in the joint firing rate space (of
 % neurons) could have resulted in candidate factor activity values.
+%
+% @ Matt Golub, 2018.
 
 % This amounts to solving a linear program, which can be done for a single
 % activity pattern, or jointly across a set of patterns. This poses an

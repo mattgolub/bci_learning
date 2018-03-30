@@ -1,3 +1,7 @@
+% Adds paths required to run the codepack.
+%
+% @ Matt Golub, 2018.
+
 addpath('./behavior/');
 addpath('./clouds/');
 addpath('./cvx/');

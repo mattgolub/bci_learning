@@ -3,6 +3,8 @@ function [p,B,yHat] = plotDataAndLinearRegression(X, Y, varargin)
 % appended if not already there (to determine bias term), unless
 % ZERO_OFFSET == true;
 % Y is a column vector of outputs
+%
+% @ Matt Golub, 2018.
 
 LINE_COLOR = 'k';
 LINE_STYLE = []; % default to '-' for p<.05, '--' otherwise

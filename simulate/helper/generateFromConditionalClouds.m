@@ -1,5 +1,7 @@
 function [simL, nRejected] = generateFromConditionalClouds(LI_clouds,LP_clouds,pertCursorParams,Zp,nPerCloud,varargin)
 % nPerCloud can be a scalar or a vector
+%
+% @ Matt Golub, 2018.
 
 perturbedCursorParams = computeFactorPushingDirections(pertCursorParams);
 M2 = perturbedCursorParams.orthonormalizedFactors;

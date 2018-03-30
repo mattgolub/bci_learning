@@ -1,6 +1,8 @@
 % These are the default options for realignment, rescaling, and
 % reassociation. For partial realignment and subselection, set
 % MATCH_PROGRESS = false.
+%
+% @ Matt Golub, 2018.
 
 MATCH_PROGRESS = false;
 ENSURE_PHYSIOLOGICAL_PLAUSIBILITY = true;

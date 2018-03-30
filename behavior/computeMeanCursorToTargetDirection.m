@@ -1,4 +1,6 @@
 function meanD = computeMeanCursorToTargetDirection(clouds)
+%
+% @ Matt Golub, 2018.
 
 numConditions = numel(clouds.cursorToTargetDirection);
 nDims = size(clouds.cursorToTargetDirection{1},1);

@@ -1,4 +1,6 @@
 function progress = computeConditionAveragedProgress(data)
+%
+% @ Matt Golub, 2018.
 
 numConditions = max(data.C);
 

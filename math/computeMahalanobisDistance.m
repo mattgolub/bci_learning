@@ -7,6 +7,8 @@ function D = computeMahalanobisDistance(Y1,Y2,C)
 % C is a covariance matrix.
 %
 % Y1, Y2 and C must have the same number of rows.
+%
+% @ Matt Golub, 2018.
 
 nY1 = size(Y1,2);
 nY2 = size(Y2,2);

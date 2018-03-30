@@ -1,4 +1,5 @@
 function rescalingParams = computeRescalingParams(expParams, LI_stats)
+% @ Matt Golub, 2018.
 
 intuitive.pushingVectors = computeFactorPushingDirections(expParams.intuitiveMapping);
 perturbed.pushingVectors = computeFactorPushingDirections(expParams.perturbedMapping);

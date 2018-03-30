@@ -2,6 +2,8 @@ function shapes = plotDataAndSummary(X,varargin)
 % Helper function for:
 %   plotDataAndCovariance
 %   plotDataAndConvHull
+%
+% @ Matt Golub, 2018.
 
 METHOD = 'cov'; % 'cov','convhull','both','none'
 COLOR_ORDER = get(gca,'colorOrder');

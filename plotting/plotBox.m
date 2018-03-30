@@ -3,6 +3,8 @@ function plotBox(x,Y,varargin)
 %
 % x is a scalar
 % Y is a vector or matrix of data
+%
+% @ Matt Golub, 2018.
 
 Y = Y(:);
 

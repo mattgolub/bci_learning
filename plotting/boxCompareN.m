@@ -10,6 +10,8 @@ function boxCompareN(D,varargin)
 % x = i.
 %
 % Adapted from barCompare.m
+%
+% @ Matt Golub, 2018.
 
 testName = 'signrank';
 COMPARISONS = [];  % each row indicates a pairwise comparison

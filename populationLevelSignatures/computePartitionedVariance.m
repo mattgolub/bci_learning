@@ -1,6 +1,8 @@
 function varargout = computePartitionedVariance(U, B, varargin)
 % breakdown = computePartitionedVariance(U,B)
 % [breakdown1, breakdown2,...] = computePartitionedVariance(U,B1,B2,...)
+%
+% @ Matt Golub, 2018.
 
 Bs = {B};
 for i = 1:numel(varargin)

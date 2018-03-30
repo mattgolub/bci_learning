@@ -1,6 +1,8 @@
 function [deltaVariancePercent, deltaPushingMagnitude, slope] = computeVarianceVsPushingMagnitude(beforeLearningClouds,afterLearningClouds,B,Bpert)
 % From varVsPM_mainTextFigure_v4.m
 % Also, use varVsPM_plotExampleExperiment.m
+%
+% @ Matt Golub, 2018.
 
 intuitivePushingMagnitude = columnNorms(B);
 perturbedPushingMagnitude = columnNorms(Bpert);

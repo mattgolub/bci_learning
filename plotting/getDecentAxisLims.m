@@ -3,6 +3,8 @@ function lims = getDecentAxisLims(x,limitScale)
 % lims = getDecentAxisLims(x,limitsScale)
 %       limitScale: 2D vector specifying range extension at lower and upper
 %       limits of the data, respectively.
+%
+% @ Matt Golub, 2018.
 
 if nargin==1
     limitScale = [0.025 0.025];

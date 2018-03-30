@@ -1,4 +1,5 @@
 function simMerged = mergeSimulatedData(sim1, sim2)
+% @ Matt Golub, 2018.
 
 n = size(sim1.Z,2);
 

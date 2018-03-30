@@ -10,6 +10,8 @@
 % Called by: 
 %       simulateRealignment_findMaxProgressFactors
 %       simulateRealignment_findMatchedProgressFactors::solveHelper
+%
+% @ Matt Golub, 2018.
 
 % number of points being optimized
 % findMaxProgressFactors: # of conditions

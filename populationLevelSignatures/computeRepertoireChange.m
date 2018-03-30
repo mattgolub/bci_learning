@@ -1,4 +1,6 @@
 function [overallRepertoireChange, movementSpecificRepertoireChange] = computeRepertoireChange(LI_clouds, LP_clouds)
+%
+% @ Matt Golub, 2018.
 
 K = 5;
 numConditions = numel(LI_clouds.factorActivity);

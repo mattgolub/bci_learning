@@ -1,5 +1,7 @@
 function [spikes,isfeasible] = computeFeasibleSpikesFromFactors_solveWithLinProg(candidateFactorActivity,observedStats,cursorParams)
 % Simply solve the problem specified. No recursion. Just optimization.
+%
+% @ Matt Golub, 2018.
 
 [B,mu] = extractSpikesToFactorsMapping(cursorParams);
 q = size(B,2); % # of neurons

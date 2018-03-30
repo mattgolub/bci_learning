@@ -1,5 +1,7 @@
 function [deltaVarIntuitive, deltaVarPerturbed] = computeVariabilityAlongBCIMappings(beforeLearningClouds,afterLearningClouds,B,Bpert)
 % Modified from deltaVariance_mainTextFigureHelper.m
+%
+% @ Matt Golub, 2018.
 
 intuitiveMapping.LI_varBreakdown = computePartitionedVariance([beforeLearningClouds.factorActivity{:}],B);
 intuitiveMapping.LP_varBreakdown = computePartitionedVariance([afterLearningClouds.factorActivity{:}],B);

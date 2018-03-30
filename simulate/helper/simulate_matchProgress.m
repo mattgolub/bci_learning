@@ -1,4 +1,5 @@
 function [Zp, stats] = simulate_matchProgress(Zp_maxProgress,LI_clouds,LP_clouds,cursorParams,MATCH_PROGRESS)
+% @ Matt Golub, 2018.
 
 numConditions = size(Zp_maxProgress.mean,2);
 

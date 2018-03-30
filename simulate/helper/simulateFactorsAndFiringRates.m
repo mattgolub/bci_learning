@@ -1,4 +1,5 @@
 function [Zc,Xc,nRejected] = simulateFactorsAndFiringRates(mu,Sigma,n,LI_stats,params,varargin)
+% @ Matt Golub, 2018.
 
 ENSURE_PHYSIOLOGICAL_PLAUSIBILITY = true;
 FIX_RANDOM_SEED = false;

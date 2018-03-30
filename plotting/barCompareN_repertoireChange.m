@@ -11,6 +11,8 @@ function barCompareN_repertoireChange(D,varargin)
 % x = i.
 %
 % Adapted from barCompareN.m
+%
+% @ Matt Golub, 2018.
 
 testName = 'signtest';
 PLOT_DATA = false;

@@ -1,4 +1,6 @@
 function p = percentChange(start,stop)
+%
+% @ Matt Golub, 2018.
 
 if isequal(size(start),size(stop))
     p = 100*(stop-start)./start;

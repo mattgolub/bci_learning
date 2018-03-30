@@ -1,6 +1,8 @@
 function y = percentile(x,Ps)
 % x is a row or column vector (no matrix support yet)
 % Ps is a vector of [0 100]
+%
+% @ Matt Golub, 2018.
 
 % From wikipedia: http://en.wikipedia.org/wiki/Percentile
 %

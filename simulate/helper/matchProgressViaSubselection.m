@@ -1,4 +1,5 @@
 function [simL, subselectionStats] = matchProgressViaSubselection(preL,perturbedMapping,LI_clouds,LP_clouds,varargin)
+% @ Matt Golub, 2018.
 
 numConditions = length(preL.P_conditionAveraged);
 actual_LP = extractActualLearningActivity(LP_clouds);

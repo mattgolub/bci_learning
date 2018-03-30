@@ -3,6 +3,8 @@ function slopes = varVsPM_computeSlopes(Ydata,Xdata)
 %
 % Ydata and Xdata are matrices with data points from individual experiments
 % as rows.
+%
+% @ Matt Golub, 2018.
 
 nExps = size(Ydata,1);
 slopes = nan(nExps,1);

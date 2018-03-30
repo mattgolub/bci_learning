@@ -1,4 +1,6 @@
 function result = stringContainsi(str, pattern)
+%
+% @ Matt Golub, 2018.
 
 if isa(str,'cell')
     result = false(size(str));

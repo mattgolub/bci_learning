@@ -1,4 +1,5 @@
 function simulateFcn = getSimulateFcn(hypothesisName)
+% @ Matt Golub, 2018.
 
 switch lower(hypothesisName)
     case 'realignment'

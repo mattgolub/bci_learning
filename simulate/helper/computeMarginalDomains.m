@@ -1,4 +1,5 @@
 function out = computeMarginalDomains(stats)
+% @ Matt Golub, 2018.
 
 out.maxFactors = stats.maxFactors;
 out.minFactors = stats.minFactors;

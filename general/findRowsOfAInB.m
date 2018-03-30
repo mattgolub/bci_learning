@@ -1,6 +1,8 @@
 function K = findRowsOfAInB(A,B)
 % K are indices into rows of B. If row i of A cannot be found in B,
 % K(i) is NaN;
+%
+% @ Matt Golub, 2018.
 
 N = size(A,1);
 K = nan(N,1);

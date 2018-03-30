@@ -1,5 +1,7 @@
 function color = getFigureColors(labelStr)
 % labelStr is 'data' or some flavor of reassociate, realign, restore, etc
+%
+% @ Matt Golub, 2018.
 
 % Results from get(gca,'colorOrder'); % MATLAB R2015a
 colorOrder = [0    0.4470    0.7410

@@ -5,6 +5,8 @@ function expectedAcquisitionTime = computePrescaledExpectedAcquisitionTime(MONK_
 % speed = progress
 %
 % If progress is negative, acquisition time is infinite.
+%
+% @ Matt Golub, 2018.
 
 CURSOR_RADIUS = 18; % mm
 TARGET_RADIUS = 20; % mm

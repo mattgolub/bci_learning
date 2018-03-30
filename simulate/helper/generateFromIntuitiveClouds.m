@@ -1,5 +1,7 @@
 function [preL,nRejected] = generateFromIntuitiveClouds(LI_stats,nPerCloud,perturbedMapping,varargin)
 % Generate patterns from conditional Gaussians fit to LI data.
+%
+% @ Matt Golub, 2018.
 
 VERBOSE = false;
 

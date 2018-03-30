@@ -3,7 +3,8 @@ function out = computeMarginalSignalDomains(stats)
 % Example:
 % stats = computeCloudStats(LI_clouds);
 % mSD = computeMarginalSignalDomains(stats);
-% [DO NOT USE 
+%
+% @ Matt Golub, 2018.
 
 out.maxFactors = max(stats.signalMean,[],2);
 out.minFactors = min(stats.signalMean,[],2);

@@ -10,8 +10,9 @@ function [projectedActivity, vraw] = computeControlPlaneActivity(concat, cursorP
 %
 % For within-manifold perturbations, can use M2, m0 in spike space or in
 % factor space. Results will agree (down to about 1e-8) for vraw, but
-% projectedActivity will only agree down to a rotation of the data
-% (I think?).
+% projectedActivity will only agree down to a rotation of the data.
+%
+% @ Matt Golub, 2018.
 
 M1 = cursorParams.M1;
 % scale = computeSpikesOnlyRescaling(M1); % Added 5/9/2017

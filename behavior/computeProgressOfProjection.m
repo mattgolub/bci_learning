@@ -10,6 +10,8 @@ function [progress, angles] = computeProgressOfProjection(v,cursorToTarget)
 % targetDirection = [1;0]; % unit vector along x-axis
 % progress_i = computeProgressOfProjection(v,targetDirection);
 % plot(theta,progress_i); % progress_i = cos(theta) = v(1,:) = x-value
+%
+% @ Matt Golub, 2018.
 
 [d,T1] = size(v);
 [d,T2] = size(cursorToTarget);

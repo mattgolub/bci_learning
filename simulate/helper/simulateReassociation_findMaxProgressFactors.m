@@ -10,6 +10,8 @@ function Zp_maxProgress = simulateReassociation_findMaxProgressFactors(LI_clouds
 % signal mean constraints in the high-d firing rate space. For this reason,
 % it's important to use the optimization framework rather than a faster
 % brute force caluclation of progress at each rediscretized signal mean.
+%
+% @ Matt Golub, 2018.
 
 fprintf('\tFinding max-progress solution subject to repertoire constraints...');
 

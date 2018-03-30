@@ -1,4 +1,5 @@
 function [m, sem, n] = meanAndSEM(x)
+% @ Matt Golub, 2018.
 
 x = x(:);
 m = nanmean(x);

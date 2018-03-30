@@ -1,4 +1,5 @@
 function [preL, nRejected] = generatePreLearningActivity(perturbedMapping, LI_stats, LP_clouds, nPerCloud, ENSURE_PHYSIOLOGICAL_PLAUSIBILITY)
+% @ Matt Golub, 2018.
 
 numConditions = numel(LP_clouds.cursorToTargetDirection);
 

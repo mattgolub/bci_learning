@@ -3,6 +3,8 @@ function [ticks,lims] = getDecentTicks(xx,minNumTicks)
 % themselves, the most extremal points, or preselected axis limits.
 %
 % See also getTicks
+%
+% @ Matt Golub, 2018.
 
 if nargin==1
     minNumTicks = 5; % Guaranteed to have at least this many ticks

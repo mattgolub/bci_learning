@@ -7,7 +7,9 @@ function [PDs, maxMagnitude] = computeFactorPushingDirections(cursorParams)
 % v0 = bsxfun(@plus,cursorParams.M2*u,cursorParams.m0);
 % v1 = bsxfun(@plus,pushingDirections.factors*z,-cursorParams.K*cursorParams.d);
 % v2 = bsxfun(@plus,pushingDirections.factors*cursorParams.V*inv(cursorParams.D)*z_orth,-cursorParams.K*cursorParams.d);
-        
+%
+% @ Matt Golub, 2018.
+
 K = cursorParams.K; % KF Kalman gain. 
 d = cursorParams.d; % KF Observation model offset
 Sigma_z = cursorParams.Sigma_z; % Factor normalization matrix, diagonals are 1/std(z_i)
