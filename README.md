@@ -1,16 +1,14 @@
-This script runs the codepack that accompanies "Learning by neural  
+This is the codepack that accompanies "Learning by neural  
 reassociation," by Matthew D. Golub, Patrick T. Sadtler , Emily R. Oby, 
 Kristin M. Quick, Stephen I. Ryu, Elizabeth C. Tyler-Kabara, Aaron P. 
-Batista, Steven M. Chase, and Byron M. Yu. Nature Neuroscience, 2018.
+Batista, Steven M. Chase, and Byron M. Yu., Nature Neuroscience, 2018.
 
 Thanks to Jay Hennig and Emily Oby for helpful feedback on the codepack.
 
-Codepack version: 1.0
+Codepack version: 1.1
 
-Please check for updates, as frequent improvements are being made through
-March 2018. If you would like notifications about updates, please direct
-such a request to Matt Golub (mgolub@stanford.edu). Feedback, comments, 
-suggestions, bug reports, etc, are also welcomed and encouraged.
+Feedback, comments, suggestions, bug reports, etc, are welcomed and encouraged.
+Please direct correspondence to Matt Golub (mgolub@stanford.edu).
 
 SETUP: 
 

@@ -5,12 +5,10 @@
 %
 % Thanks to Jay Hennig and Emily Oby for helpful feedback on the codepack.
 %
-% Codepack version: 1.0
-%
-% Please check for updates, as frequent improvements are being made through
-% March 2018. If you would like notifications about updates, please direct
-% such a request to Matt Golub (mgolub@stanford.edu). Feedback, comments, 
-% suggestions, bug reports, etc, are also welcomed and encouraged.
+% Codepack version: 1.1
+% 
+% Feedback, comments, suggestions, bug reports, etc, are welcomed and encouraged.
+% Please direct correspondence to Matt Golub (mgolub@stanford.edu).
 %
 % SETUP: 
 %
