@@ -1,15 +1,16 @@
 This is the codepack that accompanies "Learning by neural reassociation,"
 by Matthew D. Golub, Patrick T. Sadtler , Emily R. Oby, Kristin M. Quick, 
 Stephen I. Ryu, Elizabeth C. Tyler-Kabara, Aaron P. Batista, Steven M. 
-Chase, and Byron M. Yu., Nature Neuroscience, 2018.
-https://www.nature.com/articles/s41593-018-0095-3
+Chase, and Byron M. Yu., Nature Neuroscience, 2018. The article can be 
+found online at https://www.nature.com/articles/s41593-018-0095-3.
 
 Thanks to Jay Hennig and Emily Oby for helpful feedback on the codepack.
 
 Codepack version: 1.1
 
-Feedback, comments, suggestions, bug reports, etc, are welcomed and encouraged.
-Please direct correspondence to Matt Golub (mgolub@stanford.edu).
+Feedback, comments, suggestions, bug reports, etc, are welcomed and 
+encouraged. Please direct correspondence to Matt Golub 
+(mgolub@stanford.edu).
 
 SETUP: 
 
