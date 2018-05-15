@@ -1,4 +1,4 @@
-This is the codepack that accompanies ``*Learning by neural reassociation*''
+This is the codepack that accompanies **Learning by neural reassociation**
 by Matthew D. Golub, Patrick T. Sadtler , Emily R. Oby, Kristin M. Quick, 
 Stephen I. Ryu, Elizabeth C. Tyler-Kabara, Aaron P. Batista, Steven M. 
 Chase, and Byron M. Yu., Nature Neuroscience, 2018. The article can be 
